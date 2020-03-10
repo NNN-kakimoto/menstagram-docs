@@ -241,11 +241,11 @@ POST /api/v1/ramen/judge
 
 ### スラープ削除
 
-指定したIDのスラープを削除する
+- 指定したIDのスラープを削除する
 
 ####  Endpoint
 ```
-POST /api/v1/slurp/delete
+DELETE /api/v1/slurp/delete
 ```
 
 #### Request
