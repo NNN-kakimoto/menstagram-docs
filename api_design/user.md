@@ -393,3 +393,28 @@ GET /api/v1/user/follower
     }
 ]
 ```
+
+### ユーザーの退会
+
+- アカウントを停止する
+
+##### Endpoint
+
+```
+DELETE /api/v1/user/delete
+```
+
+##### Request
+
+```json
+{
+    "user_id": "XXXXX",
+    "password": "XXXXX"
+}
+```
+
+#### Response
+
+```json
+{}
+```
