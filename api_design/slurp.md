@@ -238,3 +238,26 @@ POST /api/v1/ramen/judge
     false
 ]
 ```
+
+### スラープ削除
+
+指定したIDのスラープを削除する
+
+####  Endpoint
+```
+POST /api/v1/slurp/delete
+```
+
+#### Request
+
+```json
+{
+    "slurp_id": 1
+}
+```
+
+#### Response
+
+```
+{}
+```
