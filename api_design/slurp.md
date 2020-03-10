@@ -258,6 +258,6 @@ DELETE /api/v1/slurp/delete
 
 #### Response
 
-```
+```json
 {}
 ```
